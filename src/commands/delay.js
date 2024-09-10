@@ -1,9 +1,9 @@
-const delay = (inteval) => {
-    return new Promise((accept) => {
-        setInterval(() => {
-            accept()
-        }, inteval)
-    })
+const delay = (interval) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve();
+        }, interval);
+    });
 }
 
-export default delay
+export default delay;
