@@ -25,8 +25,22 @@ clone zapfast with git clone
   npm install -g .
 ```
 open your terminal, type zapfast and be happy!
+
+
+## Attention
+The .csv file needs to have a column called phoneNumber with the number in a format like "551199878767"
+
+```bash
+phoneNumber
+5538999432323
+5538993456323
+5538967892323
+```
+
+
     
 ## Acknowledgements
 
  - [whatsapp-web.js](https://wwebjs.dev/)
+
 
