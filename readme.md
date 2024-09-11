@@ -1,6 +1,6 @@
 # ZAPFAST
 
-Wanna figure out if a phone number has a whastapp account? Use zapfast!
+Wanna find out if a phone number has a whastapp account? Use zapfast!
 
 
 
@@ -11,9 +11,9 @@ Wanna figure out if a phone number has a whastapp account? Use zapfast!
 
 [x] Select a .csv list of phone numbers and let zafast check if it has a whatsapp account.
 
-[ ] Massive whatsapp message sender
+[ ] massive message trigger
 
-[ ] extract numbers for groups
+[ ] extract numbers from all users in a group
 
 
 ## Installation
@@ -30,8 +30,3 @@ open your terminal, type zapfast and be happy!
 
  - [whatsapp-web.js](https://wwebjs.dev/)
 
-
-
-## Demo
-
-Insert gif or link to demo
