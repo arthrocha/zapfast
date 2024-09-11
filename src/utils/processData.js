@@ -13,7 +13,7 @@ const processData = async (absolutePath, client) => {
   for await (const row of parser) {
     log(row);
 
-    const isValidNumber = await client.getNumberId(row.telefone);
+    const isValidNumber = await client.getNumberId(row.phoneNumber);
 
     row.isWhatsApp = isValidNumber ? 'True' : 'False';
 
